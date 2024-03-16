@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
   </head>
   <body>
+  
+  function introductionWithLanguageOptional(name, language= JavaScript) {
+      console.log(`The two values are ${name} and ${language}.`);
+    }
+  function introductionWithLanguageOptional(name, language) {
+      console.log(`The two values are ${name} and ${language}.`);
+    }
     
   </body>
 </html>
